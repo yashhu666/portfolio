@@ -102,6 +102,7 @@
 }
 
 #page4 {
+  background-image: url("https://media.discordapp.net/attachments/1210988605452062801/1239206384277524582/Picsart_24-05-12_18-53-25-183.jpg?ex=66421461&is=6640c2e1&hm=bd8c8cceee0b14f932402b933b9d000dcd50b3aa51a6264b562866bce2d52021&");
   height: 750px;
   width: 1320px;
 }
@@ -111,7 +112,7 @@
   font-size: 75px;
   margin-left: 69px;
   padding-right: 490px;
-  text-align: centre;
+/*  text-align: centre;*/
 }
 
 #contact {
