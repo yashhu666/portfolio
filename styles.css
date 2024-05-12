@@ -37,6 +37,7 @@
   line-height: 15px;
   margin-top: 0px;
   margin-left: 70px;
+  padding-top: px;
 }
 
 #h1 {
@@ -68,7 +69,8 @@
 }
 
 #page2 {
-  background-image: url("https://cdn.discordapp.com/attachments/1210988605452062801/1238731714650439731/Untitled9_20240511112727.jpg?ex=66405a4f&is=663f08cf&hm=cde05a6a9333fcf1b84f72f34862c27dd10b20327359c42400b40aca1880a737&");
+  background-image: url("https://media.discordapp.net/attachments/1210988605452062801/1239114149355847730/Untitled9_20240512124656.jpg?ex=6641be7a&is=66406cfa&hm=1f767385484464d046e64f4eee42c3f2d7d7203b81c50b648d1a0e2aae3a1a10&");
+  
   height: 750px;
   width: 1320px;
 }
@@ -94,7 +96,7 @@
 }
 
 #page3 {
-  background-image: url("https://media.discordapp.net/attachments/1210988605452062801/1238784243958677615/Untitled13_20240511145544.jpg?ex=66408b3b&is=663f39bb&hm=67002bef487de305a91a7b6ee607889122dd97fb5e76928623463b09f7a314da&");
+  background-image: url("https://media.discordapp.net/attachments/1210988605452062801/1239118723084845076/Untitled13_20240512130505.jpg?ex=6641c2bd&is=6640713d&hm=8798ee3c51015c0034291198f24ee96fd63a46d7d91f8d189c7b7df9bdcc7464&");
   height: 750px;
   width: 1320px;
 }
@@ -157,6 +159,7 @@
   color: white;
   font-size: 150px;
   margin-left: 70px;
+  line-height: 1px;
 }
 
 #background {
@@ -188,6 +191,50 @@
 }
 
 #discord.visible {
+  opacity: 1;
+  transform: translateX(0);
+  filter: blur(0);
+}
+
+#coder {
+  font-size: 40px;
+  padding-left: 75px;
+  line-height: 2px;
+  font-family: verdana;
+  color: white;
+}
+
+
+#coder {
+  opacity: 0;
+  transform: translateX(-100px);
+  filter: blur(10px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out, filter 0.6s ease-out;
+  will-change: opacity, transform, filter;
+}
+
+#coder.visible {
+  opacity: 1;
+  transform: translateX(0);
+  filter: blur(0);
+}
+
+#education {
+  font-size: 85px;
+  padding-top: 120px;
+  margin-left: 278px;
+  font-family: roboto;
+  font-weight: 380;
+}
+#education {
+  opacity: 0;
+  transform: translateX(-100px);
+  filter: blur(10px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out, filter 0.6s ease-out;
+  will-change: opacity, transform, filter;
+}
+
+#education.visible {
   opacity: 1;
   transform: translateX(0);
   filter: blur(0);
