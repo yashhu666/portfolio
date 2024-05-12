@@ -115,8 +115,8 @@
 }
 
 #contact {
-  background-image: url("https://media.discordapp.net/attachments/1210988605452062801/1238755931794309170/Untitled12_20240511130330.jpg?ex=664070dd&is=663f1f5d&hm=aed50858ded071f850bd04827df40de411484f3340c551dcd5373af881abd99c&");
-  height: 750px;
+  background-color: black;
+  height: 350px;
   width: 1320px;
 }
 
@@ -176,26 +176,6 @@
   filter: blur(0);
 }
 
-#discord {
-  color: white;
-  font-size: 50px;
-  margin-left: 265px;i
-}
-
-#discord {
-  opacity: 0;
-  transform: translateX(-100px);
-  filter: blur(10px);
-  transition: opacity 0.6s ease-out, transform 0.6s ease-out, filter 0.6s ease-out;
-  will-change: opacity, transform, filter;
-}
-
-#discord.visible {
-  opacity: 1;
-  transform: translateX(0);
-  filter: blur(0);
-}
-
 #coder {
   font-size: 40px;
   padding-left: 75px;
@@ -238,4 +218,14 @@
   opacity: 1;
   transform: translateX(0);
   filter: blur(0);
+}
+#link {
+  color: white;
+  text-decoration: none;
+  margin-left: 1060px;
+  font-size: 30px;
+  
+}
+#cntct {
+  line-height: 10px;
 }
