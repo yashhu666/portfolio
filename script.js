@@ -1,5 +1,5 @@
 window.addEventListener('scroll', function() {
-  var elements = document.querySelectorAll('#h1, #h2, #who, #art, #cntct, #background, #discord');
+  var elements = document.querySelectorAll('#h1, #h2, #who, #art, #cntct, #background, #discord, #coder, #education');
   var windowHeight = window.innerHeight;
 
   elements.forEach(function(element) {
