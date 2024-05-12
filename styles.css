@@ -102,7 +102,6 @@
 }
 
 #page4 {
-  background-image: url("https://media.discordapp.net/attachments/1210988605452062801/1239204889570185236/Untitled10_20240511121811.jpg?ex=664212fc&is=6640c17c&hm=6af37d4b8998f957983ffc4f8b581fa63b34bc42dacdcb5b8356a7d109ea1b19&");
   height: 750px;
   width: 1320px;
 }
@@ -112,6 +111,7 @@
   font-size: 75px;
   margin-left: 69px;
   padding-right: 490px;
+  text-align: centre;
 }
 
 #contact {
